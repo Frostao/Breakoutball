@@ -6,7 +6,7 @@ import java.awt.geom.*;
 import java.awt.event.*;
 import javax.swing.JButton;
 
-public class java1 extends JFrame{
+public class BreakoutBall extends JFrame{
     private Ellipse2D ball;
     final int WIDTH= 900, HEIGHT= 650;
     double xOfBall=480,yOfBall=250;
@@ -32,7 +32,7 @@ public class java1 extends JFrame{
     int numbersOfRectangleEachLine= 0;
     
     
-    public java1() { // constructor builds GUI
+    public BreakoutBall() { // constructor builds GUI
         
         this.setResizable(false);
         //... Build the content pane.
@@ -192,7 +192,7 @@ public class java1 extends JFrame{
     
     
     public static void main(String[] args) {
-        new java1().setVisible(true);
+        new BreakoutBall().setVisible(true);
         
         
         
